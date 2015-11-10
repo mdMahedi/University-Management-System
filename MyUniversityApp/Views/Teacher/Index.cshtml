@@ -1,0 +1,129 @@
+﻿@model IEnumerable<MyUniversityApp.Models.Teacher>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var departmentDropDown = $("#showTeacherByDepartment");
+        $.ajax({
+            url: '@Url.Action("GetAllDepartment", "Teacher")',
+            method: "post",
+            dataType: "json",
+            success: function (data) {
+                departmentDropDown.empty();
+                departmentDropDown.append($("<option/>", { value: 0, text: "Select Department" }));
+                $(data).each(function (i, item) {
+                    departmentDropDown.append($("<option/>", { value: item.Value, text: item.Text }));
+                });
+            }
+        });
+        departmentDropDown.change(function () {
+            $("#xxx").empty();
+            $.ajax({
+                url: '@Url.Action("GetTeacherByDepartmentId", "Teacher")',
+                method: 'post',
+                data: { departmentId: $(this).val() },
+                dataType: 'json',
+                success: function (data) {
+                    if (data !== 0) {
+                        var table = $('<table class="table"></table>');
+                        var thead = $('<tr></tr>');
+                        thead.append('<th>Department</th>');
+                        thead.append('<th>Designation</th>');
+                        thead.append('<th>Teacher Name</th>');
+                        thead.append('<th>Email</th>');
+                        thead.append('<th>ContactNo</th>');
+                        thead.append('<th></th>');
+                        table.append(thead);
+                        $.each(data, function (i, item) {
+                            var tr = $('<tr></tr>');
+                            tr.append($("<td>" + item.Department.DepartmentCode + "</td>"));
+                            tr.append($("<td>" + item.Designation.DesignationName + "</td>"));
+                            tr.append($("<td>" + item.TeacherName + "</td>"));
+                            tr.append($("<td>" + item.Email + "</td>"));
+                            tr.append($("<td>" + item.ContactNo + "</td>"));
+                            tr.append($("<td><a href='../Teacher/Edit/" + item.TeacherId + "'>Edit&nbsp;|</a><a href='../Teacher/Details/" + item.TeacherId + "'>&nbsp;Details&nbsp;|</a><a href='../Teacher/Delete/" + item.TeacherId + "'> Delete</a></td>"));
+                            table.append(tr);
+                        });
+                        $("#xxx").html(table);
+                    } else {
+                        $("#xxx").empty();
+                        var errmsg = $('<div align="center" ><div class="alert alert-danger" style="width:60%;" role="alert">No Teacher found</div></div>');
+                        $("#xxx").html(errmsg);
+                    }
+                },
+                error: function () {
+                    alert("Failed");
+                }
+            });
+        });
+    });
+
+</script>
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div align="center">
+    <select id="showTeacherByDepartment" name="showTeacherByDepartment" style="height: 30px; width: 200px; color: purple"></select>
+
+</div><br /><br />
+
+<div id="xxx"></div>
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Department.DepartmentCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Designation.DesignationName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeacherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactNo)
+            </th>
+
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model) {
+        <tr id="a1">
+            <td>
+                    @Html.DisplayFor(modelItem => item.Department.DepartmentCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designation.DesignationName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeacherName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactNo)
+                </td>
+
+
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.TeacherId }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.TeacherId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.TeacherId })
+                </td>
+        </tr>
+        }
+
+    </table>*@
+
+
+@*@Html.BootstrapPager(pageIndex, index => Url.Action("Index", "Product", new { pageIndex = index }), Model.TotalCount, numberOfLinks: 10)*@

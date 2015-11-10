@@ -1,0 +1,251 @@
+﻿@model MyUniversityApp.Models.AssiginCourseToTeacher
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    select {
+        width: 200px;
+        height: 30px;
+    }
+    input {
+        
+    }
+</style>
+<script src="~/Scripts/jquery-2.1.4.js"></script>
+<h2>Create</h2>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var departmentDDL = $("#DepartmentId");
+        var courseDDL = $("#CourseId");
+        var teacherDDL = $("#TeacherId");
+        courseDDL.prop("disabled", true);
+        teacherDDL.prop("disabled", true);
+        $("#CraditToBeTaken").prop("value", "");
+        $("#RemainingCradit").prop("value", "");
+        $("#CourseName").prop("value", "");
+        $("#CourseCradit").prop("value", "");
+        departmentDDL.empty();
+        courseDDL.empty();
+        teacherDDL.empty();
+        courseDDL.append($("<option/>", { value: "", text: "Course Locked" }));
+        teacherDDL.append($("<option/>", { value: "", text: "Teacher Locked" }));
+        $.ajax({
+            url: '@Url.Action("GetAllDepartment", "AssiginCourseToTeacher")',
+            method: 'post',
+            dataType: 'json',
+            success: function (data) {
+                departmentDDL.append($("<option/>", { value: "", text: "Select Department" }));
+                $(data).each(function (index, item) {
+                    departmentDDL.append($("<option/>", { value: item.Value, text: item.Text }));
+                });
+            }
+        });
+        departmentDDL.change(function () {
+            if ($(this).val() !== "") {
+                courseDDL.empty();
+                teacherDDL.empty();
+                courseDDL.prop("disabled", true);
+                $("#CraditToBeTaken").prop("value", "");
+                $("#RemainingCradit").prop("value", "");
+                $("#CourseName").prop("value", "");
+                $("#CourseCradit").prop("value", "");
+                courseDDL.append($("<option/>", { value: "", text: "Course Locked" }));
+                $.ajax({
+                    url: '@Url.Action("GetTeacherByDepartmentId", "AssiginCourseToTeacher")',
+                    method: 'post',
+                    data: { departmentId: $(this).val() },
+                    dataType: 'json',
+                    success: function (data) {
+                        teacherDDL.empty();
+
+                        teacherDDL.prop("disabled", false);
+                        teacherDDL.append($("<option/>", { value: "", text: "Select Teacher" }));
+                        $(data).each(function (index, item) {
+                            teacherDDL.append($("<option/>", { value: item.Value, text: item.Text }));
+                        });
+                    },
+                    error: function () {
+                        alert("Failed");
+                    }
+                });
+            } else {
+                teacherDDL.empty();
+                teacherDDL.prop("disabled", true);
+                teacherDDL.append($("<option/>", { value: "", text: " Teacher Locked" }));
+                courseDDL.empty();
+                courseDDL.append($("<option/>", { value: "", text: "Course Locked" }));
+                courseDDL.prop("disabled", true);
+                $("#CraditToBeTaken").prop("value", "");
+                $("#RemainingCradit").prop("value", "");
+                $("#CourseName").prop("value", "");
+                $("#CourseCradit").prop("value", "");
+            }
+        });
+
+        teacherDDL.change(function () {
+            $("#CraditToBeTaken").prop("value", "");
+            $("#RemainingCradit").prop("value", "");
+            $("#CourseName").prop("value", "");
+            $("#CourseCradit").prop("value", "");
+            courseDDL.empty();
+            courseDDL.append($("<option/>", { value: "", text: "Course Locked" }));
+            courseDDL.prop("disabled", true);
+            if ($(this).val() !== "") {
+                $.ajax({
+                    url: '@Url.Action("GetTeacherInfo", "AssiginCourseToTeacher")',
+                    method: 'post',
+                    data: { teacherId: $(this).val() },
+                    dataType: 'json',
+                    success: function (data) {
+
+                        $("#CraditToBeTaken").prop("value", data.TeacherCraditLimit);
+                        $("#RemainingCradit").prop("value", data.RemainingCradit);
+
+                    },
+                    error: function () {
+                        alert("Failed");
+                    }
+                });
+                courseDDL.empty();
+                courseDDL.append($("<option/>", { value: "", text: "Course Loading..." }));
+                courseDDL.prop("disabled", true);
+                $("#CourseName").prop("value", "");
+                $("#CourseCradit").prop("value", "");
+                $.ajax({
+                    url: '@Url.Action("GetCourseByDepartmentId", "AssiginCourseToTeacher")',
+                    method: 'post',
+                    data: { departmentId: departmentDDL.val() },
+                    dataType: 'json',
+                    success: function (data) {
+                        courseDDL.empty();
+                        courseDDL.prop("disabled", false);
+                        courseDDL.append($("<option/>", { value: "", text: "Select Course" }));
+                        $(data).each(function (i, item) {
+                            courseDDL.append($("<option/>", { value: item.Value, text: item.Text }));
+                        });
+
+                    },
+                    error: function () {
+                        alert("failed");
+                    }
+                });
+            } else {
+                courseDDL.empty();
+                courseDDL.append($("<option/>", { value: "", text: "Course Locked" }));
+                courseDDL.prop("disabled", true);
+                $("#CraditToBeTaken").prop("value", "");
+                $("#RemainingCradit").prop("value", "");
+                $("#CourseName").prop("value", "");
+                $("#CourseCradit").prop("value", "");
+            }
+
+        });
+        courseDDL.change(function () {
+            if ($(this).val() === "") {
+                $("#CourseName").prop("value", "");
+                $("#CourseCradit").prop("value", "");
+            } else {
+                $.ajax({
+                    url: '@Url.Action("GetCourseInfo", "AssiginCourseToTeacher")',
+                    method: 'post',
+                    data: { CourseId: $(this).val() },
+                    dataType: 'json',
+                    success: function (data) {
+                        $("#CourseName").prop("value", data.CourseName);
+                        $("#CourseCradit").prop("value", data.Cradit);
+                    },
+                    error: function() {
+                        alert("Failed");
+                    }
+                });
+            }
+        });
+
+    });
+</script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Assigin Course To Teacher</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DepartmentId, "DepartmentId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("DepartmentId", String.Empty)
+                @Html.ValidationMessageFor(model => model.DepartmentId)
+            </div>
+        </div>
+
+
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TeacherId, "TeacherId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("TeacherId", String.Empty)
+                @Html.ValidationMessageFor(model => model.TeacherId)
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.Label("Cradit To Be Taken", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" id="CraditToBeTaken" value="" disabled="disabled" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Renmaining Cradit", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" id="RemainingCradit" disabled="disabled" />
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.CourseId, "CourseId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("CourseId", String.Empty)
+                @Html.ValidationMessageFor(model => model.CourseId)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Course Name", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" id="CourseName" disabled="disabled" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Course Cradit", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" id="CourseCradit" disabled="disabled" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default"/>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

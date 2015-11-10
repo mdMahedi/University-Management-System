@@ -1,0 +1,247 @@
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll.config
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.pdb
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\WebGrease.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.pdb
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.pdb
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\EntityFramework.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.dll
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\EntityFramework.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.xml
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csproj.GenerateResource.Cache
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init2.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.modelUpdate.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.courseAndTeacherUpdate.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.StudentUpdated.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAdded.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated2.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAllocateCreated.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csprojResolveAssemblyReference.cache
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DeleteACell.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DayNameCell.resources
+E:\ASP.net\BITM-Project\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomUpdates.resources
+I:\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll.config
+I:\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll
+I:\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.pdb
+I:\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.dll
+I:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.dll
+I:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Web.Infrastructure.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.dll
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.dll
+I:\MyUniversityApp\MyUniversityApp\bin\WebGrease.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.pdb
+I:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.xml
+I:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.xml
+I:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.xml
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csprojResolveAssemblyReference.cache
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init2.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.modelUpdate.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.courseAndTeacherUpdate.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.StudentUpdated.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAdded.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated2.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAllocateCreated.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DeleteACell.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DayNameCell.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomUpdates.resources
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csproj.GenerateResource.Cache
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.dll
+I:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.pdb
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Core.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Cookies.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Facebook.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Google.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.OAuth.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Twitter.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Owin.dll
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Core.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Cookies.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Facebook.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Google.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.OAuth.xml
+I:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll.config
+D:\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll
+D:\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.pdb
+D:\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.dll
+D:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.dll
+D:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Google.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Web.Infrastructure.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Owin.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.dll
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.dll
+D:\MyUniversityApp\MyUniversityApp\bin\WebGrease.dll
+D:\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.pdb
+D:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.xml
+D:\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Google.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.xml
+D:\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.xml
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csprojResolveAssemblyReference.cache
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init2.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.modelUpdate.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.courseAndTeacherUpdate.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.StudentUpdated.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAdded.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated2.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAllocateCreated.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DeleteACell.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DayNameCell.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomUpdates.resources
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csproj.GenerateResource.Cache
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.dll
+D:\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.pdb
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll.config
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\MyUniversityApp.pdb
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\EntityFramework.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Owin.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\WebGrease.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Antlr3.Runtime.pdb
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\EntityFramework.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\EntityFramework.SqlServer.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\Newtonsoft.Json.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Helpers.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Mvc.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Optimization.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.Razor.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csprojResolveAssemblyReference.cache
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.init2.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.modelUpdate.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.courseAndTeacherUpdate.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.StudentUpdated.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAdded.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.AssignUpdated2.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomAllocateCreated.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DeleteACell.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.DayNameCell.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.Migrations.RoomUpdates.resources
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.csproj.GenerateResource.Cache
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.dll
+C:\Users\MD MAHEDI HASAN\Desktop\MyUniversityApp\MyUniversityApp\MyUniversityApp\obj\Debug\MyUniversityApp.pdb

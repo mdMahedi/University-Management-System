@@ -1,0 +1,26 @@
+﻿@model MyUniversityApp.Models.AssiginCourseToTeacher
+
+@{
+    ViewBag.Title = "AskToAsign";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Assign Confirmation</h2>
+
+<br/><br/>
+
+<div><h4 style="color: chocolate">@Server.HtmlDecode(ViewBag.message)</h4></div>
+
+<br /><br />
+<form action="AssignConfirmed" method="POST">
+    <input type="submit" class="btn btn-warning" value="Confirm" />
+</form>
+
+
+
+&nbsp;&nbsp;
+<form action="Create">
+    <input type="submit" value="Cancel" class="btn btn-default" />
+</form>
+
+

@@ -1,0 +1,105 @@
+﻿@model IEnumerable<MyUniversityApp.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index of Student</h2>
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    var departmentDropDown = $("#DepartmentDropDown");
+    $.ajax({
+        url: '@Url.Action("GetAllDepartment", "Student")',
+        method: "post",
+        dataType: "json",
+        success: function (data) {
+            //alert("Succes");
+            departmentDropDown.empty();
+            departmentDropDown.append($("<option/>", { value: 0, text: "Select Department" }));
+            $(data).each(function (i, item) {
+                departmentDropDown.append($("<option/>", { value: item.Value, text: item.Text }));
+            });
+        },
+        error:function (){alert("Failed");}
+    });
+        departmentDropDown.change(function () {
+            var url = "/Student/Index/" + $(this).val();
+            var link = document.createElement('a');
+           
+            link.href = url;
+            document.body.appendChild(link);
+            link.click();
+
+        
+    });
+    });
+
+</script>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div align="center"><select id="DepartmentDropDown" style="height: 30px; color: black; width: 160px;"></select>
+</div>
+<h3 style="color: rgb(114, 250, 20)">@TempData["reg"]</h3>
+<br/><br/>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DepartmentCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentReg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EnrollmentDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentAddress)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DepartmentCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudentReg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EnrollmentDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudentAddress)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.StudentId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.StudentId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.StudentId })
+        </td>
+    </tr>
+}
+
+</table>

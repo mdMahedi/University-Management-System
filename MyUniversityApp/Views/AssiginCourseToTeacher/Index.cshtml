@@ -1,0 +1,143 @@
+﻿@model IEnumerable<MyUniversityApp.Models.AssiginCourseToTeacher>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index of Course Assigning to Teacher</h2>
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+<p>
+    @Html.ActionLink("Assign New Course", "Create")
+</p>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var table = $("#indexTable");
+        var department = $("#departmentDropDownList");
+        
+
+        $.ajax({
+            url: '@Url.Action("GetAllDepartment", "Teacher")',
+            method: "post",
+            dataType: "json",
+            success: function (data) {
+                department.empty();
+                department.append($("<option/>", { value: 0, text: "Select Department" }));
+                $(data).each(function (i, item) {
+                    department.append($("<option/>", { value: item.Value, text: item.Text }));
+                });
+            }
+        });
+        department.change(function () {
+            var tBody;
+            if ($(this).val() !== "") {
+                table.empty();
+                $.ajax({
+                    url: '@Url.Action("GetAssignInfo", "AssiginCourseToTeacher")',
+                    method: 'post',
+                    data: { departmentId: $(this).val() },
+                    dataType: 'json',
+                    success: function(data) {
+                        var thead = $("<tr>" + "<th>Course Code</th><th>Course Name</th><th>Semister</th><th>Assign To</th>" + "</tr>");
+                        table.append(thead);
+                        $(data).each(function(i, item) {
+                            tBody = $("<tr>" + "<td>" + item.Course.CourseCode + "</td>" + "<td>" + item.Course.CourseName + "</td>" + "<td>" + item.Course.Semister.SemisterName + "</td>" + "<td>" + item.Teacher.TeacherName + "</td>" + "</tr>");
+                            table.append(tBody);
+
+                        });
+                    },
+                    error: function() {
+                        alert("failed");
+                    }
+                });
+            } else {
+                table.empty();
+            }
+        });
+
+
+    });
+
+</script>
+<br/>
+<div align="center"><select id="departmentDropDownList" style="height: 30px; color: purple; width: 160px;"></select>
+</div>
+<br /><br />
+<table id="indexTable" class="table">
+    <tr>
+        <th>Course Code</th>
+        <th>Course Name</th>
+        <th>Semister</th>
+        <th>Assign To</th>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Course.CourseName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DepartmentCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teacher.TeacherName)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.CraditTaken)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RemainingCradit)
+        </th>*@
+        @*<th></th>
+    </tr>*@
+
+@*@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Course.CourseName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DepartmentCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teacher.TeacherName)*@
+        @*</td>*@
+        @*<td>
+            @Html.DisplayFor(modelItem => item.CraditTaken)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RemainingCradit)
+        </td>*@
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AssiginCourseToTeacherId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AssiginCourseToTeacherId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AssiginCourseToTeacherId })
+        </td>*@
+    @*</tr>
+}
+
+</table>*@
